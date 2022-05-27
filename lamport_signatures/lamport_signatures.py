@@ -60,3 +60,4 @@ sk, pk = keygen()
 message = 'Zachary Ratliff is cool! 1d8a8b7def'
 sig = sign(sk, message)
 is_valid_signature = verify(sig, message, pk)
+print(is_valid_signature)
